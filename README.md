@@ -19,11 +19,11 @@
                 <span class="form-message"></span>
             </div>
             <div class="form-group">
-                <label for="password">Mật khẩu</label>
+                <label for="password">Password</label>
                 <input type="text" id="password" rules='required|min:4|max:20' name="password" class="form-control" placeholder="Enter password...">
                 <span class="form-message"></span>
             </div>
-            <button type="submit" class="btn btn-block btn-primary mb-2">Đăng nhập</button>
+            <button type="submit" class="btn btn-block btn-primary mb-2">Login</button>
         </form>
         <script src="../shared/validator.js" type="text/javascript"></script>
         <script>
