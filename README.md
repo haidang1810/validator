@@ -30,7 +30,7 @@
             validator('.form-login',{
                 formGroup: '.form-group',
                 formMessage: '.form-message',
-                onSubmit: function(){
+                onSubmit: function(formValues){
                     console.log("submit");
                 }
             });
